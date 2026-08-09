@@ -1,87 +1,73 @@
-# 🎬 Movie_Ticket_Booking.Web
-A full-stack web application for browsing movies, checking showtimes, selecting seats, and booking movie tickets online. Built with a user-friendly interface and backend database management for handling movies, bookings, users, and seat availability.
+# Welcome to your Lovable project
 
-## 🚀 Features
+## Project info
 
-* 👤 User Registration & Login
-* 🎬 Browse Available Movies
-* 🕐 View Movie Showtimes
-* 💺 Select Available Seats
-* 🎟️ Book Movie Tickets
-* 📋 View Booking Details
-* ❌ Manage/Cancel Bookings
-* 🔐 User Authentication
-* 🛠️ Admin Movie & Show Management
-* 📱 Responsive User Interface
+**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
 
-## 🛠️ Tech Stack
+## How can I edit this code?
 
-### Frontend
+There are several ways of editing your application.
 
-* HTML5
-* CSS3
-* Tailwind css
-* React
-* JavaScript
-* Bootstrap *(if used)*
+**Use Lovable**
 
+Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
 
-### Database
+Changes made via Lovable will be committed automatically to this repo.
 
-* SQLite / MySQL / PostgreSQL *(use your database)*
+**Use your preferred IDE**
 
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-## 🎟️ How It Works
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-1. Register or log in to your account.
-2. Browse available movies.
-3. Select a movie and preferred showtime.
-4. Choose available seats.
-5. Confirm the booking.
-6. View your booking details.
+Follow these steps:
 
-## 🔐 Admin Panel
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-Administrators can manage:
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-* Movies
-* Showtimes
-* Theatres
-* Seats
-* Users
-* Bookings
+# Step 3: Install the necessary dependencies.
+npm i
 
-For Django, access the admin panel at:
-
-```text
-http://127.0.0.1:8000/admin/
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
 ```
 
-## 📸 Screenshots
+**Edit a file directly in GitHub**
 
-Add screenshots of your project here:
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
+**Use GitHub Codespaces**
 
-## 🔮 Future Improvements
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
+## What technologies are used for this project?
 
-* 💳 Online Payment Integration
-* Python
-* Django *(use the framework you used)*
-* 📧 Email Booking Confirmation
-* 📱 Mobile Application
-* 🎫 QR Code Ticket Generation
-* ⭐ Movie Ratings & Reviews
-* 🔔 Booking Notifications
+This project is built with:
 
-## 🤝 Contributing
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
-Contributions are welcome. Feel free to fork this repository, create a new branch, make your changes, and submit a pull request.
+## How can I deploy this project?
 
-## 📄 License
+Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
 
-This project is open-source and available under the **MIT License**.
+## Can I connect a custom domain to my Lovable project?
 
----
+Yes, you can!
 
-⭐ If you found this project useful, consider giving the repository a star!
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
